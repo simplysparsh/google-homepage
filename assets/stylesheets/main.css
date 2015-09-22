@@ -1,3 +1,5 @@
+
+
 #logo {
   height: 92px;
   width: 272px;
@@ -7,4 +9,49 @@
   display: block;
   margin: auto;
   padding-top: 109px;
+}
+
+#search_box_form {
+  width: 584px;
+  height: 36px;
+  
+  display: block;
+  margin: auto;
+  position: relative;
+  border: 1px solid #C9C9C9;
+
+  
+}
+
+form :first-child {
+  
+  width: 525px;
+  height: 26px;
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: 6px;
+    
+  font-family: '.HelveticaNeueDeskInterface-Regular';
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  border: none;
+  outline: none;
+   
+  
+}
+
+div img {
+  height: 30px;
+  width: 28px;
+  display: inline-block;
+  float: right;
+  bottom: 51px;
+  right: 10px;
+  position: relative;
+  
 }
