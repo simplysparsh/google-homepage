@@ -1,5 +1,4 @@
 
-
 #logo {
   height: 92px;
   width: 272px;
@@ -11,7 +10,7 @@
   padding-top: 109px;
 }
 
-#search_box_form {
+#search_form {
   width: 584px;
   height: 36px;
   
@@ -19,8 +18,7 @@
   margin: auto;
   position: relative;
   border: 1px solid #C9C9C9;
-
-  
+  margin-top: 30px;
 }
 
 form :first-child {
@@ -41,17 +39,29 @@ form :first-child {
   line-height: normal;
   border: none;
   outline: none;
-   
-  
 }
 
-div img {
-  height: 30px;
-  width: 28px;
+#search_form img {
+  height: 24px;
+  width: 24px;
   display: inline-block;
   float: right;
-  bottom: 51px;
-  right: 10px;
+  bottom: 108px;
+  right: 8px;
   position: relative;
-  
+} 
+
+.buttons {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 32px 4px 11px 4px;
+  height: 36px;
+  padding: 0px 16px 0px 16px;
+  text-align: center;
 }
