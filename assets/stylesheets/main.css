@@ -74,8 +74,17 @@ form #text_box {
   margin-right: 150px;
 }
 
-
-
+#footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height: 35px;
+  width:100%;
+  display: block;
+  position: absolute;
+  bottom:0;
+  left:0;
+  font-size: 10pt;
+}
 
 
 
